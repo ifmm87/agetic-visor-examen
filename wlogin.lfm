@@ -1,0 +1,151 @@
+object Form4: TForm4
+  Left = 598
+  Height = 518
+  Top = 223
+  Width = 741
+  ClientHeight = 518
+  ClientWidth = 741
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object RudeEdit: TEdit
+    Left = 240
+    Height = 28
+    Top = 96
+    Width = 340
+    OnChange = RudeEditChange
+    TabOrder = 0
+  end
+  object StaticText1: TStaticText
+    Left = 136
+    Height = 29
+    Top = 96
+    Width = 89
+    Caption = 'R.U.D.E.'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object StaticText2: TStaticText
+    Left = 144
+    Height = 29
+    Top = 130
+    Width = 81
+    Caption = 'C.I.'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object CiEdit: TEdit
+    Left = 240
+    Height = 28
+    Top = 130
+    Width = 340
+    OnChange = CiEditChange
+    TabOrder = 3
+  end
+  object EmpezarButton: TButton
+    Left = 568
+    Height = 88
+    Top = 408
+    Width = 154
+    Caption = 'Empezar Prueba'
+    Enabled = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = EmpezarButtonClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object TerminosYCondicionesText: TStaticText
+    Left = 80
+    Height = 112
+    Top = 256
+    Width = 600
+    Caption = '-'
+    TabOrder = 5
+  end
+  object Button2: TButton
+    Left = 392
+    Height = 64
+    Top = 432
+    Width = 154
+    Caption = 'Salir'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object StaticTextTitulo: TStaticText
+    Left = 48
+    Height = 40
+    Top = 24
+    Width = 680
+    Caption = 'Olimpiadas Científicas estudiantiles - Bolivia 2021 '
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -23
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object StaticTextTitulo1: TStaticText
+    Left = 80
+    Height = 40
+    Top = 208
+    Width = 568
+    Caption = 'Terminos y condiciones'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -23
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+  object AceptoCheckBox: TCheckBox
+    Left = 80
+    Height = 24
+    Top = 376
+    Width = 276
+    Caption = 'Acepto los terminos y condiciones'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnChange = AceptoCheckBoxChange
+    ParentFont = False
+    TabOrder = 9
+  end
+end
