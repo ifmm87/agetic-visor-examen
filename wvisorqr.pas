@@ -19,6 +19,7 @@ type
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure Image1Click(Sender: TObject);
     procedure StaticText1Click(Sender: TObject);
 
   private
@@ -61,8 +62,15 @@ begin
   // string, which encode:
   qrcode.Text:=FContenidoQr;
   // paint on Canvas on coordinates surrounded by rectangle :
-  qrcode.Paint(Image1.Canvas, Rect(30,30,630,700));
-  qrcode.Free;
+  qrcode.Paint(Image1.Canvas, Rect(0,0,600,600));
+  //qrcode.Paint(PaintBox1.Canvas, Rect(30,30,550,550));
+
+  // qrcode.Free;
+end;
+
+procedure TForm3.Image1Click(Sender: TObject);
+begin
+
 end;
 
 procedure TForm3.StaticText1Click(Sender: TObject);

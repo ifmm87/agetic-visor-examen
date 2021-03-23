@@ -1,19 +1,19 @@
 object Form3: TForm3
-  Left = 550
-  Height = 787
-  Top = 138
+  Left = 483
+  Height = 848
+  Top = 64
   Width = 884
   Caption = 'Visor QR'
-  ClientHeight = 787
+  ClientHeight = 848
   ClientWidth = 884
   DesignTimePPI = 120
   OnCreate = FormCreate
   OnShow = FormShow
   LCLVersion = '2.0.12.0'
   object Button1: TButton
-    Left = 776
+    Left = 760
     Height = 31
-    Top = 744
+    Top = 808
     Width = 94
     Caption = 'Cerrar'
     Font.CharSet = ANSI_CHARSET
@@ -29,10 +29,12 @@ object Form3: TForm3
   end
   object Image1: TImage
     Left = 32
-    Height = 664
-    Top = 64
-    Width = 816
+    Height = 712
+    Top = 88
+    Width = 824
     Anchors = [akTop, akRight]
+    OnClick = Image1Click
+    Transparent = True
   end
   object StaticText1: TStaticText
     Left = 32

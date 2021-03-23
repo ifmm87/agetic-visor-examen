@@ -159,7 +159,8 @@ begin
   then
   begin
      Form1.Hide;
-     Form3.ContenidoQr:= '{"ci": "123456", "respuestas": [{"respuesta": ["a", "b"]}, {"respuesta": ["d"]}, {"respuesta": ["a"]}, {"respuesta": ["arroz", "comida", "whisky"]}, {"respuesta": ["arroz", "comida", "whisky"]}, {"respuesta": ["arroz", "comida", "whisky"]}, {"respuesta": ["c", "b", "a"]},{"respuesta": ["c", "b", "a"]},{"respuesta": ["c", "b", "a"]},{"respuesta": ["c", "b", "a"]},{"respuesta": ["c", "b", "a"]},{"respuesta": ["c", "b", "a"]}]' ;
+     // Form3.ContenidoQr:= 'respuestas' ;
+     Form3.ContenidoQr:= '{"ci": "123456", "respuestas": [{"respuesta": ["d"]}, {"respuesta": ["b"]}, {"respuesta": ["d"]}, {"respuesta": ["pato", "peta"]}]' ;
      Form3.Show();
 
   end;
@@ -246,7 +247,7 @@ begin
      // index := pregunta - 1;
      // jpregunta := TJSONObject(jArray[index]);
      // label1.Caption:= 'Pregunta ' + IntToStr(pregunta);
-     ShowMessage(IntToStr(i));
+     //ShowMessage(IntToStr(i));
         limpiarPanel(Panel1);
        jpregunta := TJSONObject(jArray.Items[i]);
        jopciones := TJSONArray(jpregunta.Extract('opciones'));

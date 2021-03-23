@@ -11,7 +11,7 @@
         <EditorIndex Value="5"/>
         <TopLine Value="2"/>
         <CursorPos X="2" Y="19"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="71"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -22,9 +22,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="wVisorExamen"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="217"/>
-        <CursorPos X="3" Y="222"/>
-        <UsageCount Value="52"/>
+        <TopLine Value="118"/>
+        <CursorPos X="90" Y="125"/>
+        <UsageCount Value="71"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -35,7 +35,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="18" Y="6"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="71"/>
       </Unit2>
       <Unit3>
         <Filename Value="wvisorqr.pas"/>
@@ -45,10 +45,11 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="wVisorQr"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="44"/>
-        <CursorPos Y="58"/>
-        <UsageCount Value="52"/>
+        <TopLine Value="52"/>
+        <CursorPos X="53" Y="66"/>
+        <UsageCount Value="71"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="wlogin.pas"/>
@@ -59,7 +60,7 @@
         <EditorIndex Value="3"/>
         <TopLine Value="68"/>
         <CursorPos X="13" Y="69"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="71"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
@@ -68,14 +69,14 @@
         <EditorIndex Value="4"/>
         <TopLine Value="2311"/>
         <CursorPos X="11" Y="2326"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="wvisorqr.lfm"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="41" Y="15"/>
-        <UsageCount Value="25"/>
+        <CursorPos X="34" Y="6"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit6>
@@ -83,123 +84,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="99" TopLine="142"/>
+        <Caret Line="42" Column="15" TopLine="24"/>
       </Position1>
       <Position2>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="166" Column="34" TopLine="144"/>
+        <Caret Line="221" Column="51" TopLine="202"/>
       </Position2>
       <Position3>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="96" Column="13" TopLine="94"/>
+        <Caret Line="148" Column="15" TopLine="141"/>
       </Position3>
       <Position4>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="112" Column="16" TopLine="93"/>
+        <Caret Line="218" Column="46" TopLine="211"/>
       </Position4>
       <Position5>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="111" Column="16" TopLine="92"/>
+        <Caret Line="217" Column="46" TopLine="210"/>
       </Position5>
       <Position6>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="158" Column="35" TopLine="143"/>
+        <Caret Line="174" TopLine="163"/>
       </Position6>
       <Position7>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="153" Column="31" TopLine="141"/>
+        <Caret Line="96" Column="11" TopLine="95"/>
       </Position7>
       <Position8>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="167" Column="27" TopLine="148"/>
+        <Caret Line="95" Column="11" TopLine="94"/>
       </Position8>
       <Position9>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="164" Column="37" TopLine="145"/>
+        <Caret Line="96" Column="11" TopLine="95"/>
       </Position9>
       <Position10>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="153" TopLine="136"/>
+        <Caret Line="98" Column="11" TopLine="97"/>
       </Position10>
       <Position11>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="164" Column="38" TopLine="148"/>
+        <Caret Line="227" Column="52" TopLine="217"/>
       </Position11>
       <Position12>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="162" Column="27" TopLine="148"/>
+        <Caret Line="228" Column="52" TopLine="218"/>
       </Position12>
       <Position13>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="106" Column="13" TopLine="110"/>
+        <Caret Line="195" Column="31" TopLine="188"/>
       </Position13>
       <Position14>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="167" Column="28" TopLine="151"/>
+        <Caret Line="219" Column="27" TopLine="196"/>
       </Position14>
       <Position15>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="170" Column="17" TopLine="152"/>
+        <Caret Line="244" Column="6" TopLine="231"/>
       </Position15>
       <Position16>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="177" Column="29" TopLine="161"/>
+        <Caret Line="262" Column="22" TopLine="237"/>
       </Position16>
       <Position17>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="175" Column="6" TopLine="160"/>
+        <Caret Line="46" Column="15" TopLine="245"/>
       </Position17>
       <Position18>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="97" Column="24" TopLine="90"/>
+        <Caret Line="256" Column="20" TopLine="245"/>
       </Position18>
       <Position19>
         <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="136" Column="11" TopLine="120"/>
+        <Caret Line="249" Column="10" TopLine="248"/>
       </Position19>
       <Position20>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="205" Column="31" TopLine="191"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="49" Column="24" TopLine="44"/>
       </Position20>
       <Position21>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="42" Column="15" TopLine="24"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="56" Column="22" TopLine="45"/>
       </Position21>
       <Position22>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="221" Column="51" TopLine="202"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="64" Column="33" TopLine="57"/>
       </Position22>
       <Position23>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="148" Column="15" TopLine="141"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="70" Column="34" TopLine="58"/>
       </Position23>
       <Position24>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="218" Column="46" TopLine="211"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="66" Column="39" TopLine="56"/>
       </Position24>
       <Position25>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="217" Column="46" TopLine="210"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="16" Column="26"/>
       </Position25>
       <Position26>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="174" TopLine="163"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="71" Column="23" TopLine="49"/>
       </Position26>
       <Position27>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="96" Column="11" TopLine="95"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="63" Column="42" TopLine="51"/>
       </Position27>
       <Position28>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="95" Column="11" TopLine="94"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="67" Column="22" TopLine="48"/>
       </Position28>
       <Position29>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="96" Column="11" TopLine="95"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="66" Column="3" TopLine="53"/>
       </Position29>
       <Position30>
-        <Filename Value="wvisorexamen.pas"/>
-        <Caret Line="98" Column="11" TopLine="97"/>
+        <Filename Value="wvisorqr.pas"/>
+        <Caret Line="65" Column="3" TopLine="52"/>
       </Position30>
     </JumpHistory>
     <RunParams>
