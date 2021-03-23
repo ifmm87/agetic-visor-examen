@@ -5,7 +5,7 @@ unit wVisorQr;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls,
   qrencode;
 
 type
@@ -14,18 +14,23 @@ type
 
   TForm3 = class(TForm)
     Button1: TButton;
+    Image1: TImage;
+    StaticText1: TStaticText;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure StaticText1Click(Sender: TObject);
+
   private
-
+    FContenidoQr: string;
+    procedure SetContenidoQr(AValue: string);
   public
-
+       property ContenidoQr: String read FContenidoQr write SetContenidoQr;
   end;
 
 var
   Form3: TForm3;
   qrcode: qrencode.TQRCode;
-
 implementation
 
 {$R *.lfm}
@@ -36,22 +41,34 @@ procedure TForm3.Button1Click(Sender: TObject);
 begin
 
 end;
+procedure TForm3.SetContenidoQr(AValue: string);
+begin
+  if FContenidoQr=AValue then Exit;
+  FContenidoQr:=AValue;
+  // add custom code here
+end;
 
 procedure TForm3.FormCreate(Sender: TObject);
+begin
+
+end;
+
+procedure TForm3.FormShow(Sender: TObject);
 begin
   qrcode:=TQRCode.Create();
   // set error correction level:
   qrcode.EcLevel:=QR_ECLEVEL_H;
   // string, which encode:
-  qrcode.Text:='Testing QR code';
+  qrcode.Text:=FContenidoQr;
   // paint on Canvas on coordinates surrounded by rectangle :
-  // qrcode.Paint(Printer.Canvas, Rect(10,10,100,100));
+  qrcode.Paint(Image1.Canvas, Rect(30,30,630,700));
   qrcode.Free;
 end;
 
-function generar:boolean;
+procedure TForm3.StaticText1Click(Sender: TObject);
 begin
 
 end;
+
 end.
 

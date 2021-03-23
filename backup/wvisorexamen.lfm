@@ -1,23 +1,25 @@
 object Form1: TForm1
   Left = 528
-  Height = 573
+  Height = 717
   Top = 184
-  Width = 945
+  Width = 1088
   Caption = 'Bienvenido Estudiante : MARIANA ROCHA MACUAPA'
-  ClientHeight = 573
-  ClientWidth = 945
+  ClientHeight = 717
+  ClientWidth = 1088
   DesignTimePPI = 120
   OnClose = FormClose
   OnCreate = FormCreate
   LCLVersion = '2.0.12.0'
   object Button1: TButton
-    Left = 720
+    Left = 872
     Height = 47
-    Top = 488
-    Width = 198
+    Top = 632
+    Width = 193
+    Anchors = [akTop, akLeft, akRight, akBottom]
     Caption = 'Enviar examen'
+    Color = clInactiveCaptionText
     Font.CharSet = ANSI_CHARSET
-    Font.Color = clBlack
+    Font.Color = clOlive
     Font.Height = -23
     Font.Name = 'Showcard Gothic'
     Font.Pitch = fpVariable
@@ -27,14 +29,14 @@ object Form1: TForm1
     TabOrder = 0
   end
   object Button2: TButton
-    Left = 720
+    Left = 704
     Height = 41
-    Top = 424
+    Top = 592
     Width = 118
-    Caption = 'Adelante >>'
+    Caption = 'Siguiente >>'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
-    Font.Height = -15
+    Font.Height = -17
     Font.Name = 'Showcard Gothic'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -44,11 +46,12 @@ object Form1: TForm1
     TabOrder = 1
   end
   object Button3: TButton
-    Left = 208
+    Left = 232
     Height = 41
-    Top = 424
+    Top = 592
     Width = 94
     Caption = '<< Atrás'
+    Color = clWhite
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -17
@@ -60,40 +63,12 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 2
   end
-  object StaticText1: TStaticText
-    Left = 352
-    Height = 21
-    Top = 514
-    Width = 248
-    Caption = 'Desarrollado por Agetic 2021'
-    Font.CharSet = ANSI_CHARSET
-    Font.Color = clBlack
-    Font.Height = -15
-    Font.Name = 'Showcard Gothic'
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    ParentFont = False
-    TabOrder = 3
-  end
-  object StatusBar1: TStatusBar
-    Left = 0
-    Height = 29
-    Top = 544
-    Width = 945
-    Panels = <>
-  end
-  object ProgressBar: TProgressBar
-    Left = 0
-    Height = 29
-    Top = 544
-    Width = 304
-    TabOrder = 5
-  end
   object StaticTextTitulo: TStaticText
-    Left = 40
+    Left = 128
     Height = 42
-    Top = 24
-    Width = 864
+    Top = 32
+    Width = 835
+    Anchors = [akTop, akLeft, akRight, akBottom]
     Caption = 'Olimpiadas Científicas estudiantiles - Bolivia 2021 '
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -103,29 +78,46 @@ object Form1: TForm1
     Font.Quality = fqDraft
     Font.Style = [fsBold]
     ParentFont = False
-    TabOrder = 6
+    TabOrder = 5
   end
   object preguntaText: TStaticText
-    Left = 264
-    Height = 80
-    Top = 120
-    Width = 528
+    Left = 232
+    Height = 56
+    Top = 112
+    Width = 787
+    Anchors = [akTop, akLeft, akRight, akBottom]
     Caption = 'Pregunta Actual'
+    Color = 10701328
     Font.CharSet = ANSI_CHARSET
-    Font.Color = clBlack
-    Font.Height = -20
+    Font.Color = 10707489
+    Font.Height = -22
     Font.Name = 'Showcard Gothic'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     ParentFont = False
+    ParentColor = False
     TabOrder = 7
   end
-  object contadorText: TStaticText
-    Left = 320
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 29
+    Top = 688
+    Width = 1088
+    Panels = <>
+  end
+  object ProgressBar: TProgressBar
+    Left = 8
+    Height = 29
+    Top = 688
+    Width = 304
+    TabOrder = 4
+  end
+  object totalText: TStaticText
+    Left = 352
     Height = 32
-    Top = 548
+    Top = 688
     Width = 16
-    Caption = '0'
+    Caption = 'N'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -18
@@ -134,12 +126,12 @@ object Form1: TForm1
     Font.Quality = fqDraft
     Font.Style = [fsBold]
     ParentFont = False
-    TabOrder = 8
+    TabOrder = 10
   end
   object StaticText4: TStaticText
     Left = 336
     Height = 32
-    Top = 548
+    Top = 688
     Width = 8
     Caption = '/'
     Font.CharSet = ANSI_CHARSET
@@ -152,12 +144,12 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 9
   end
-  object totalText: TStaticText
-    Left = 352
+  object contadorText: TStaticText
+    Left = 320
     Height = 32
-    Top = 548
+    Top = 688
     Width = 16
-    Caption = 'N'
+    Caption = '0'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -18
@@ -166,6 +158,101 @@ object Form1: TForm1
     Font.Quality = fqDraft
     Font.Style = [fsBold]
     ParentFont = False
-    TabOrder = 10
+    TabOrder = 8
+  end
+  object Panel1: TPanel
+    Left = 248
+    Height = 394
+    Top = 182
+    Width = 572
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BevelColor = 16119285
+    Color = 15987699
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Panel2: TPanel
+    Left = 24
+    Height = 392
+    Top = 184
+    Width = 192
+    BevelColor = 14606046
+    Color = 15527148
+    ParentColor = False
+    TabOrder = 12
+    OnClick = Panel2Click
+  end
+  object StaticText2: TStaticText
+    Left = 32
+    Height = 48
+    Top = 120
+    Width = 84
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Caption = '00:49:45'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -23
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 13
+  end
+  object StaticText1: TStaticText
+    Left = 568
+    Height = 21
+    Top = 696
+    Width = 218
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Caption = 'Desarrollado por Agetic 2021'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Panel3: TPanel
+    Left = 848
+    Height = 392
+    Top = 184
+    Width = 192
+    BevelColor = 14606046
+    ClientHeight = 392
+    ClientWidth = 192
+    Color = 15527148
+    ParentColor = False
+    TabOrder = 14
+    OnClick = Panel2Click
+    object StaticText3: TStaticText
+      Left = 8
+      Height = 352
+      Top = 24
+      Width = 176
+      Alignment = taRightJustify
+      Caption = 'La pregunta que estas viendo en pantalla es una de seleccion SIMPLE, esto quiere decir que deber seleccionar solo una de las posibles respuestas. Recuerda que puedes volver a la pregunta antes de enviar el examen.'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -17
+      Font.Name = 'Segoe UI Black'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      OnClick = StaticText3Click
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object Shape1: TShape
+    Left = 816
+    Height = 41
+    Top = 640
+    Width = 49
+    Brush.Color = 4033848
+    Shape = stTriangleRight
   end
 end
